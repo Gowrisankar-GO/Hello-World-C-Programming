@@ -29,4 +29,11 @@ void main(){
     printf("string: %s\n", mystring);
 
     printf("sum of two numbers: %.2f\n", myfloat+(float)mydate);
+
+    //lets try to compare a float value is equal to the int value
+    float convFloat = (float)mydate;
+
+    printf("the explicit copnversion of int is %f\n", convFloat);
+ 
+    printf("comparing float and int value %d\n ", myfloat== convFloat); // 1 = true, 0 =false
 }
